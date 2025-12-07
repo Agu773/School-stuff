@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Package</title>
+  <style>
+    
+body {
+  margin: 0;
+  background: #111;
+}
+
+.collage-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.corner {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+
+.tl { top: 0; left: 0; }
+.tr { top: 0; right: 0; }
+.bl { bottom: 0; left: 0; }
+.br { bottom: 0; right: 0; }
+
+
+.main-pop {
+  position: absolute;
+  width: 280px;
+  height: 320px;
+  object-fit: cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  border-radius: 12px;
+  box-shadow: 0 10px 35px rgba(226, 56, 56, 0.6);
+  z-index: 10;
+}
+    
+    .christ{
+      margin-top:50%;
+      margin:50% ;
+      width: 350px;
+      height: 175px;
+      border-radius: 8px;
+      box-shadow: 0 10px 35px rgba(226, 56, 56, 1);
+      border: none;
+      left: 50%;
+    margin-bottom: 100%;
+    margin-top: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding:;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: url(Trees.jpg) center/cover;
+  color: red;
+  font-weight: bolder;
+  transition: 0.10s;
+    }
+    .christ:active{
+      background: url(Balls.jpg) center/cover;
+    }
+    
+ .christ:hover {
+   background: url(Balls.jpg) center/contain;
+   color: green;
+ }
+    
+    .wish{
+      margin-bottom:70%;
+      z-index: 10;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height:150px ;
+    margin-left: 50%;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 10px 35px rgba(226, 56, 56, 1);
+    color: white;
+    background: url(Snowmen.jpg) center/contain;
+    transition: 0.10s;
+    padding: auto;
+    font-size: 25px;
+    margin-top: 1%;
+    }
+    
+    .wish:active{
+      background: url(Snacks.jpg);
+    }
+    
+    .wish:hover{
+      background: url(Snacks.jpg) center/contain;
+      color: green;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="collage-bg">
+  <img src="Balls.jpg" class="corner tl">
+  <img src="Snacks.jpg" class="corner tr">
+  <img src="Snowmen.jpg" class="corner bl">
+  <img src="Trees.jpg" class="corner br">
+
+  <img src="Light.jpg" class="main-pop">
+  <button class="christ">Merry Christmas To The Love Of My Life✨</button>
+  <button class="wish">I Wish You The Best Of Everything ML 💖</button>
+</div>
+
+
+
+</body>
+
+</html>
